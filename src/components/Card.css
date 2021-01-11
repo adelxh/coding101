@@ -21,7 +21,6 @@ body {
     box-shadow: 2px 5px 10px 5px rgba(0,0,0,0.15);
 }
 .card-container:hover {
-    /* background-color: rgba(30, 144, 254, 0.9); */ 
     background-color: rgb(246, 143, 26);
     transform: scale(1.05);
     transition: 0.5s;
