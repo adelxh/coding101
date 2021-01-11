@@ -1,0 +1,32 @@
+body {
+    background-color:rgba(192,192,192,0.0.5);
+}
+.card-container {
+    display: flex; 
+    flex-direction: column;
+    background-color: white;
+    border: 0.2px solid lightgrey;
+    border-radius: 5px;
+    padding: 25px; 
+    cursor: pointer;
+    -moz-osx-font-smoothing: grayscale; 
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-shadow: 2px 5px 10px 5px rgba(0,0,0,0.15); 
+    box-shadow: 2px 5px 10px 5px rgba(0,0,0,0.15);
+}
+.card-container:hover {
+    /* background-color: rgba(30, 144, 254, 0.9); */
+    background-color: rgba(255, 153, 36, 1);
+    transform: scale(1.05);
+    transition: 0.5s;
+    color: white;
+}
+
+p {
+    font-size: 16px;
+}
