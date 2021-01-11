@@ -1,0 +1,36 @@
+* {
+    margin: 0 auto;
+    /* padding: 20px; */
+}
+
+ul {
+    list-style: none;
+    background-color: lightblue;
+}
+ 
+
+.user_name {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 43px;
+    padding-bottom: 10px;
+    font-family:'Times New Roman', Times, serif;
+    
+    
+}
+
+.birthday {
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 30px;
+    
+    
+}
+.avatar {
+    
+    text-align: center;
+    padding-bottom: 60px;
+    width: 30%;
+    font-size: 30px;
+}
